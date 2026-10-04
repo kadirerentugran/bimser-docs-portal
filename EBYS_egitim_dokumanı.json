@@ -1,0 +1,347 @@
+{
+    "dokuman_kilit_bilgileri": {
+        "baslik": "eBAPlus ELEKTRONİK BELGE YÖNETİM SİSTEMİ EĞİTİM DOKÜMANI",
+        "tarih": "Temmuz 2026",
+        "sirket": "Bimser Çözüm A.Ş."
+    },
+    "bolumler": [
+        {
+            "bolum_no": "1",
+            "baslik": "Kurum Dışı Yazı Oluşturma",
+            "icerik": "Sol menüden 'Kurum Dışı Yazışma > Kurum Dışı Yazı Oluştur' adımları izlenerek evrak taslağı açılır. Açılan ekranda belgenin bölümleri görsel bir şablon halinde sunulur. Evrak içeriğini doldurmak için bu şablon üzerindeki soluk renkli alanlara tıklanarak veri giriş formu açılır.",
+            "gorseller": [
+                "Şekil 1: Kurum Dışı Yazı Oluşturma Modülü Arayüzü"
+            ],
+            "alt_basliklar": [
+                {
+                    "alt_bolum_no": "1.1",
+                    "baslik": "Konu ve Dosya Planı Bilgilerinin Doldurulması",
+                    "icerik": "Taslak üzerindeki herhangi bir alana tıklanarak veri giriş formu açılır. Form açıldığında 'Konu' sekmesi görüntülenir; bu alana belgenin konusu yazılır ve ilgili 'Standart Dosya Planı' seçilir. Yanında yıldız (*) işareti bulunan alanların doldurulması zorunludur.",
+                    "gorseller": [
+                        "Şekil 2: Kurum Dışı Evrak İçin Konu ve Dosya Planı Bilgilerinin Girilmesi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.2",
+                    "baslik": "Güvenlik ve Öncelik Bilgilerinin Tanımlanması",
+                    "icerik": "Bu ekran üzerinden evraka ait iki temel ayar yapılandırılır.",
+                    "gorseller": [
+                        "Şekil 3: Kurum Dışı Evrak Güvenlik ve Öncelik Ayarları Seçimi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.3",
+                    "baslik": "İlgi Ekleme İşlemleri",
+                    "icerik": "Belgeye yeni bir ilgi eklemek için öncelikle ilgililer sekmesindeki 'İlgi Ekle' butonuna tıklanır. İlgi Ekle butonuna tıklandığında, İlgi Tanımlama paneli açılır. Bu panel üzerinden 'Sistemden Kayıtlı İlgi Seç' butonuna tıklanır. Ekranda yer alan sütun başlıkları veya filtreleme alanları kullanılarak aranan evrak bulunur. İlgi belgesi seçildikten sonra, İlgi Tanımlama panelinde eklenecek ilginin metni görüntülenir. Ardından 'Tamam' butonuna tıklanarak ilgili belge evraka eklenir. İlgi olarak eklenecek belge sistemde kayıtlı değilse, 'İlgili belge sistemde kayıtlı' seçeneğinin işareti kaldırılarak belge bilgileri manuel olarak girilebilir.",
+                    "gorseller": [
+                        "Şekil 4: Kurum Dışı Yazışma - İlgiler Sekmesi ve İlgi Ekleme Butonu",
+                        "Şekil 5: Kurum Dışı Yazışma - Sistemden Kayıtlı İlgi Seçim Paneli",
+                        "Şekil 6: Kurum Dışı Yazışma - Kayıtlı Evrakların Filtrelenmesi ve Seçimi",
+                        "Şekil 7: Kurum Dışı Yazışma - Seçilen Belgenin İlgi Tanımlama Formuna Eklenmesi.",
+                        "Şekil 8: Kurum Dışı Yazışma - Kayıtlı Olmayan Yeni İlginin Tanımlanması"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.4",
+                    "baslik": "Eklerin Yüklenmesi",
+                    "icerik": "Belgeye yeni bir ek tanımlamak için, bu sekme içerisinde yer alan 'Ek Oluştur' butonuna tıklanır. Çoklu Ek Tanımlama formunda, Tür alanından eklenecek belgenin türü seçilir. Dosya eklemek için 'Bilgisayarımdan Ekle' veya 'Doküman Yönetiminden Ekle' seçimi yapılır.",
+                    "gorseller": [
+                        "Şekil 9: Kurum Dışı Yazışma - Ekler Sekmesi ve Ek Oluşturma İşlemi",
+                        "Şekil 10: Kurum Dışı Yazışma - Çoklu Ek Tanımlama ve Tür Seçim Paneli"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.5",
+                    "baslik": "Dağıtımların Tanımlanması",
+                    "icerik": "Dağıtım eklemek için, Dağıtımlar sekmesi içindeki 'Gönderilecek Yer Ekle' butonuna tıklanır. 1 numaralı alandan 'Kurum', 'Şahıs' veya 'Tüzel Şahıs' seçilerek formlar doldurulur.",
+                    "gorseller": [
+                        "Şekil 11: Kurum Dışı Yazışma - Dağıtımlar Sekmesi ve Gönderilecek Yer Ekleme İşlemi",
+                        "Şekil 12: Dağıtım Tanımlama Ekranı - Kurum Bazlı Gönderim Hedefi Seçimi",
+                        "Şekil 13: Dağıtım Tanımlama Ekranı - Şahıs Bazlı Gönderim Hedefi Seçimi",
+                        "Şekil 14: Dağıtım Tanımlama Ekranı - Tüzel Şahıs Bazlı Gönderim Hedefi Seçimi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.6",
+                    "baslik": "Gövde Editörünün Kullanımı",
+                    "icerik": "Bu alan üzerinden gelişmiş bir editör şablonu sağlanmaktadır.",
+                    "gorseller": [
+                        "Şekil 15: Kurum Dışı Evrak İçeriği İçin Gelişmiş Gövde Editörü Paneli"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.7",
+                    "baslik": "Onaylayacak Kişilerin Tanımlanması",
+                    "icerik": "Onaylayacaklar sekmesi altındaki 'Ekle' butonuna tıklanır. Ekle butonuna tıklandığında açılan İmza Tanımlama panelinde, yapılacak işlemin türü seçilmelidir. İmza türü belirlendikten sonra, sistemde kayıtlı kullanıcıların listelendiği arama ekranı üzerinden ilgili yönetici veya personel seçilir.",
+                    "gorseller": [
+                        "Şekil 16: Kurum Dışı Yazışma - Onaylayacaklar Sekmesi ve Onaycı Ekleme İşlemi",
+                        "Şekil 17: Kurum Dışı Yazışma - İmza Tanımlama Paneli ve Tür Seçimi",
+                        "Şekil 18: Kurum Dışı Yazışma - Tanımlanan Kullanıcının Onay Listesinde Görüntülenmesi",
+                        "Şekil 19: Kurum Dışı Yazışma - 'Adına' İşlem Yapılacak Kişi Belirleme Paneli"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.8",
+                    "baslik": "Ayrıntılı Bilgi Kişisinin Tanımlanması",
+                    "icerik": "Ayrıntılı bilgi için başvurulacak kişi belgeyi oluşturandan farklıysa, 'Bilgiler' sekmesindeki 'Ayrıntılı Bilgi Kişisi Ekle' butonuna tıklanır ve açılan pencereden ilgili kişi seçilir.",
+                    "gorseller": [
+                        "Şekil 20: Kurum Dışı Yazışma - Bilgiler Sekmesi ve Ayrıntılı Bilgi Kişisi Ekleme İşlemi",
+                        "Şekil 21: Kurum Dışı Yazışma - Ayrıntılı Bilgi İçin Personel Seçim Paneli"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.9",
+                    "baslik": "İlişkili Belgelerin Tanımlanması",
+                    "icerik": "Oluşturulan evrakın, içeriğiyle doğrudan bağlantılı veya dosya planı gereği bir arada bulunması gereken başka belgelerle ilişkilendirilmesi için İlişkili Belgeler sekmesi kullanılır. Seçim işlemi sonrasında, belirlenen belgeler İlişkili Belgeler sekmesindeki tabloda listelenir.",
+                    "gorseller": [
+                        "Şekil 22: Kurum Dışı Yazışma - İlişkili Belgeler Sekmesi ve Ekleme İşlemi",
+                        "Şekil 23: Kurum Dışı Yazışma - Kayıtlı Belgeler Arasından İlişkili Belge Seçimi",
+                        "Şekil 24: Kurum Dışı Yazışma - Tanımlanan İlişkili Belgelerin Liste Görünümü"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.10",
+                    "baslik": "Belge Ön İzleme ve Gönderim İşlemleri",
+                    "icerik": "Kurum Dışı Yazı Oluşturma ekranının sağ üst panelinde yer alan fonksiyonel butonlar (Notlar, Belge Ön İzle, Şablon Seç, Şablon Olarak Kaydet, İptal, Belgenin Gönderimi) kullanılır.",
+                    "gorseller": [
+                        "Şekil 25: Kurum Dışı Yazı Ön İzleme Paneli ve Fonksiyonel İşlem Butonları"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.11",
+                    "baslik": "Giden ve Gelen Yazışmaların Takibi",
+                    "icerik": "Kurum dışı birimlere iletilen veya dış birimlerden gelen evrakların takibi için sol menüde bulunan Giden Yazışmalarım ve Gelen Yazışmalarım sekmeleri kullanılır.",
+                    "gorseller": [
+                        "Şekil 26: Kurum Dışı Yazışma Modülü- Giden/Gelen Evrak Takip Ekranı ve Alt Menü Yapısı",
+                        "Şekil 27: Kurum Dışı- Giden Yazışmalar Detaylı Rapor ve Liste Ekranı",
+                        "Şekil 28: Kurum Dışı- Gelen Evrak Liste Ekranı ve Örnek Kayıt Görünümü"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "1.12",
+                    "baslik": "Yardımcı İşlemler ve Ek Fonksiyonlar",
+                    "icerik": "Süreçleri hızlandırmak ve evrak yönetimini kolaylaştırmak amacıyla, sol menüde yer alan yardımcı fonksiyonlar (Hazır Yazı Ekle, Evrak Numara Talep Formu, Onayda Bekleyen Evrakı Geri Çek, Belge İmzalama Formu) kullanılır.",
+                    "gorseller": [
+                        "Şekil 29: Kurum Dışı Yazışma Modülü- EBYS Belge Numara Talep Formu"
+                    ]
+                }
+            ]
+        },
+        {
+            "bolum_no": "2",
+            "baslik": "Kurum İçi Yazı Oluşturma",
+            "icerik": "Sisteme giriş yapıldıktan sonra, sol tarafta yer alan ana navigasyon menüsünden Kurum İçi Yazışma sekmesine tıklanılır. Açılan menüden 'Kurum İçi Yazı Oluştur' butonuna tıklandığında, sağ taraftaki geniş çalışma alanında belgenin taslak ön izleme ekranı yüklenir.",
+            "gorseller": [
+                "Şekil 30: Kurum İçi Yazı Oluşturma Modülü Arayüzü"
+            ],
+            "alt_basliklar": [
+                {
+                    "alt_bolum_no": "2.1",
+                    "baslik": "Konu ve Dosya Planı Bilgilerinin Tanımlanması",
+                    "icerik": "Şablon üzerinden herhangi bir alana tıklandığında, evraka ait verilerin girileceği detaylı Kurum İçi Yazışma Formu açılır.",
+                    "gorseller": [
+                        "Şekil 31: Evrak Konu ve Dosya Planı Bilgilerinin Girilmesi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.2",
+                    "baslik": "Güvenlik ve Öncelik Bilgilerinin Tanımlanması",
+                    "icerik": "Bu ekran üzerinden evraka ait iki temel ayar yapılandırılır.",
+                    "gorseller": [
+                        "Şekil 32: Evrak Güvenlik ve Öncelik Ayarları Seçimi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.3",
+                    "baslik": "İlgi Ekleme İşlemleri",
+                    "icerik": "Evraka yeni bir ilgi eklemek için öncelikle İlgiler sekmesindeki 'İlgi Ekle' butonuna tıklanır. Sistemden kayıtlı ilgi seçilir veya ilgili belge sistemde kayıtlı değilse manuel olarak girilebilir.",
+                    "gorseller": [
+                        "Şekil 33: İlgiler Sekmesi ve İlgi Ekleme Butonu",
+                        "Şekil 34: Sistemden Kayıtlı İlgi Seçim Paneli",
+                        "Şekil 35: Sistemde Kayıtlı Evrakların Filtrelenmesi ve Seçimi",
+                        "Şekil 36: Seçilen Belgenin İlgi Tanımlama Formuna Eklenmesi",
+                        "Şekil 37: Sistemde Kayıtlı Olmayan Yeni İlginin Tanımlanması"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.4",
+                    "baslik": "Eklerin Yüklenmesi",
+                    "icerik": "Belgeye yeni bir ek tanımlamak için, bu sekme içerisinde yer alan 'Ek Oluştur' butonuna tıklanır. Çoklu Ek Tanımlama formunda dosya ekleme işlemleri yapılır.",
+                    "gorseller": [
+                        "Şekil 38: Ekler Sekmesi ve Ek Oluşturma İşlemi",
+                        "Şekil 39: Çoklu Ek Tanımlama ve Tür Seçim Paneli"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.5",
+                    "baslik": "Dağıtımların Tanımlanması",
+                    "icerik": "Dağıtım eklemek için, sekme içindeki 'Gönderilecek Yer Ekle' butonuna tıklanır. Birim bazlı veya kişi bazlı seçimler yapılarak dağıtım türü belirlenir.",
+                    "gorseller": [
+                        "Şekil 40: Dağıtımlar Sekmesi ve Gönderilecek Yer Ekleme İşlemi",
+                        "Şekil 41: Dağıtım Tanımlama Ekranı - Birim Bazlı Seçim Alanları",
+                        "Şekil 42: Dağıtım İçin Hedef Birim Seçim ve Filtreleme Paneli",
+                        "Şekil 43: Dağıtım Tanımlama Ekranı - Kişi Bazlı Seçim Alanları"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.6",
+                    "baslik": "Gövde Editörünün Kullanımı",
+                    "icerik": "Bu alan üzerinden gelişmiş bir editör şablonu sağlanmaktadır.",
+                    "gorseller": [
+                        "Şekil 44: Gövde Editörü Paneli"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.7",
+                    "baslik": "Onaylayacak Kişilerin Tanımlanması",
+                    "icerik": "Onaylayacak kişileri eklemek için; Onaylayacaklar sekmesi altındaki 'Ekle' butonuna tıklanır. İmza türü ve ilgili yetkili seçilerek süreç yapılandırılır.",
+                    "gorseller": [
+                        "Şekil 45: Onaylayacaklar Sekmesi ve Onaycı Ekleme İşlemi",
+                        "Şekil 46: İmza Tanımlama Paneli - İşlem ve İmza Türü Seçimi",
+                        "Şekil 47: Evrakı Onaylayacak Yönetici veya Personelin Seçilmesi",
+                        "Şekil 48: Tanımlanan Kullanıcının Onay Listesinde Görüntülenmesi",
+                        "Şekil 49: İmza Tanımlama Paneli - 'Adına' İşlem Yapılacak Kişi Belirleme"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.8",
+                    "baslik": "Ayrıntılı Bilgi Kişisinin Tanımlanması",
+                    "icerik": "Belgenin ayrıntılı bilgisi için başvurulacak kişi belgeyi oluşturandan farklıysa, Bilgiler sekmesinden kişi ataması yapılır.",
+                    "gorseller": [
+                        "Şekil 50: Bilgiler Sekmesi ve Ayrıntılı Bilgi Kişisi Ekleme İşlemi",
+                        "Şekil 51: Ayrıntılı Bilgi İçin Başvurulacak Personelin Seçilmesi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.9",
+                    "baslik": "İlişkili Belgelerin Tanımlanması",
+                    "icerik": "Oluşturulan evrakın doğrudan bağlantılı olduğu belgelerle ilişkilendirilmesi için İlişkili Belgeler sekmesi kullanılır.",
+                    "gorseller": [
+                        "Şekil 52: İlişkili Belgeler Sekmesi ve İlişkili Belge Ekleme İşlemi",
+                        "Şekil 53: Sisteme Kayıtlı Belgeler Arasından İlişkili Belge Seçimi",
+                        "Şekil 54: Tanımlanan İlişkili Belgelerin Form Üzerindeki Liste Görünümü"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.10",
+                    "baslik": "Belge Ön İzleme ve İşlem Menüsü",
+                    "icerik": "Kurum İçi Yazı Oluşturma ekranının sağ üst panelinde yer alan fonksiyonel butonlar ve gerçekleştirdikleri işlemler sağlanır.",
+                    "gorseller": [
+                        "Şekil 55: Kurum İçi Yazı Ön İzleme Paneli ve Fonksiyonel İşlem Butonları"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.11",
+                    "baslik": "Giden ve Gelen Yazışmaların Takibi",
+                    "icerik": "Hazırlanan evrakların güncel durumlarını, imza süreçlerini ve arşivlenmiş yazışmaları takip etmek amacıyla sol menüde bulunan Giden Yazışmalarım ve Gelen Yazışmalarım sekmeleri kullanılır.",
+                    "gorseller": [
+                        "Şekil 56: Giden ve Gelen Yazışmalar İçin Rapor ve Takip Modülü",
+                        "Şekil 57: Kurum İçi Giden Yazışmalar Detaylı Rapor ve Liste Ekranı",
+                        "Şekil 58: Gelen Evrak Liste Ekranı ve Örnek Kayıt Görünümü"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.12",
+                    "baslik": "Yardımcı İşlemler ve Ek Fonksiyonlar",
+                    "icerik": "Süreçleri hızlandırmak amacıyla sol menüde yer alan yardımcı fonksiyonlar tanımlanmıştır.",
+                    "gorseller": [
+                        "Şekil 59: Kurum İçi Yazışma Modülü Yardımcı İşlem Menüleri"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "2.13",
+                    "baslik": "Onay Süreci ve İmza İşlemleri",
+                    "icerik": "Yazıyı oluşturan kullanıcı tarafından 'e-İmzaya Gönder' işlemi gerçekleştirilen belgeler, onay mekanizmasında tanımlı imzacılara iletilir.",
+                    "gorseller": [
+                        "Şekil 60: Kurum İçi Yazışma Onay Ekranı ve İşlem Butonları"
+                    ]
+                }
+            ]
+        },
+        {
+            "bolum_no": "3",
+            "baslik": "Gelen Evrak Kayıt İşlemleri",
+            "icerik": "eBA Plus menüsü üzerinden sırasıyla EBYS ve Evrak Kayıt sekmelerine tıklanır. Sisteme eklenecek olan yeni evrakın detaylarının, gönderici bilgilerinin, güvenlik seviyelerinin ve dağıtım rotalarının belirleneceği 'Gelen Evrak Kayıt' Formu ana ekranı yüklenir.",
+            "gorseller": [
+                "Şekil 61: Ana Navigasyon Menüsü Üzerinden Gelen Evrak Kayıt Modülüne Erişim",
+                "Şekil 62: Gelen Evrak Kayıt Formu Ana Veri Giriş Arayüzü"
+            ],
+            "alt_basliklar": [
+                {
+                    "alt_bolum_no": "3.1",
+                    "baslik": "Geliş Yolu ve Gönderici Bilgilerinin Tanımlanması",
+                    "icerik": "Gelen Evrak Kayıt Formu üzerindeki veri giriş işlemleri belirli bir sıra ile gerçekleştirilir: Geliş Yolu Seçimi, Gönderici Türünün Belirlenmesi, Gönderici Detaylarının Girilmesi, Yetki ve İşlem Düzeyinin Tanımlanması.",
+                    "gorseller": [
+                        "Şekil 63: Gelen Evrak Kayıt Formu- Geliş Yolu ve Güvenlik Parametrelerinin Belirlenmesi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "3.2",
+                    "baslik": "Evrak Temel Bilgileri ve Dosya Planı Seçimi",
+                    "icerik": "Temel kimlik detayları için 'Evrak Bilgileri' bölümü doldurulur ve arşiv hiyerarşisi için 'Standart Dosya Planı' seçilir.",
+                    "gorseller": [
+                        "Şekil 64: Gelen Evrak Kayıt Formu - Temel Evrak Bilgilerinin Tanımlanması"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "3.3",
+                    "baslik": "Dağıtımların Tanımlanması",
+                    "icerik": "Kurum içi evrak sevkleri 'Dağıtımlar' bölümünden yönetilir. Rota oluşturmak için onay verecek yetkili veya dağıtım türü seçilir. Çoklu dağıtım işlemleri de gerçekleştirilebilir.",
+                    "gorseller": [
+                        "Şekil 65: Gelen Evrak Kayıt Formu- Dağıtım Onaylayıcı Seçimi",
+                        "Şekil 66: Gelen Evrak Çoklu Dağıtım İşlemi"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "3.4",
+                    "baslik": "Evrak Dosyasının Sisteme Yüklenmesi ve Ön İzleme",
+                    "icerik": "Taranmış veya dijital belge alana yüklenir ve sağdaki ön izleme panelinden doğruluğu teyit edilir.",
+                    "gorseller": [
+                        "Şekil 67: Gelen Evrak Dosyasının Sisteme Yüklenmesi ve Ön İzleme Paneli",
+                        "Şekil 68: Formu gönderme ekranı"
+                    ]
+                }
+            ]
+        },
+        {
+            "bolum_no": "4",
+            "baslik": "EBYS Evrak Sorgulama",
+            "icerik": "Evrak arama, takip ve raporlama işlemleri için 'EBYS Evrak Sorgulama' menüsü kullanılır.",
+            "gorseller": [
+                "Şekil 75: EBYS Evrak Sorgulama Menüsü"
+            ],
+            "alt_basliklar": [
+                {
+                    "alt_bolum_no": "4.1",
+                    "baslik": "Birim Bazlı Evrak Sorgulamaları",
+                    "icerik": "Birimden Kurum Dışına Giden Evraklar, Birimden Kurum İçine Giden Evraklar, Birime Kurum Dışından Gelen Evraklar ve Birime Kurum İçinden Gelen Evraklar sorgulanabilir.",
+                    "gorseller": [
+                        "Şekil 76: Birimden Kurum Dışına Giden Evraklar",
+                        "Şekil 77: Birimden Kurum İçine Giden Evraklar",
+                        "Şekil 78: Birimden Kurum Dışına Giden Evraklar (Birime Kurum Dışından Gelen Evraklar)",
+                        "Şekil 79: Birime Kurum İçinden Gelen Evraklar"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "4.2",
+                    "baslik": "Kurum Bazlı (Tüm) Evrak Sorgulamaları",
+                    "icerik": "Kurum Dışına Giden Tüm Evraklar, Kuruma Gelen Tüm Evraklar ve Kurum İçi Giden Tüm Evraklar incelenebilir.",
+                    "gorseller": [
+                        "Şekil 80: Kurum Dışına Giden Tüm Evraklar",
+                        "Şekil 80: Kuruma Gelen Tüm Evraklar (Mükerrer Numara Kullanılmış)",
+                        "Şekil 81: Kurum İçi Giden Tüm Evraklar"
+                    ]
+                },
+                {
+                    "alt_bolum_no": "4.3",
+                    "baslik": "Gizli Evrak İşlemleri",
+                    "icerik": "Gizli Evrak Numara Talepleri ve Tüm Gizli Evrak Numara Talepleri onay durumlarıyla birlikte izlenebilir.",
+                    "gorseller": [
+                        "Şekil 82: Gizli Evrak Numara Talepleri",
+                        "Şekil 83: Tüm Gizli Evrak Numara Talepleri"
+                    ]
+                }
+            ]
+        }
+    ]
+}
