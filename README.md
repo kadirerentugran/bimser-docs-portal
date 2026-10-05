@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>📚 Bimser Docs Portal</h1>
+  <p>Şirket İçi Akıllı Dokümantasyon Arama Motoru (Yapay Zeka Destekli)</p>
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## 📌 Proje Hakkında
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bu proje, kurum içi dokümanların (Kullanım Kılavuzları, Kurulum Rehberleri, Teknik Şartnameler) son kullanıcılar tarafından akıllı ve anlamsal (semantic) olarak aranabildiği **Son Kullanıcı Arayüzüdür (Frontend)**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Kullanıcılar klasik anahtar kelime araması yerine, doğrudan cümleler kurarak veya soru sorarak `pgvector` veritabanı içinde en alakalı doküman parçalarına milisaniyeler içinde ulaşabilirler.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🌟 Öne Çıkan Özellikler
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **Semantic Search (Anlamsal Arama):** "Sisteme nasıl giriş yaparım?" gibi doğal dil sorularını anlayarak en doğru dokümanı getirme.
+*   **Hızlı ve Modern Arayüz:** Next.js 14 altyapısı ile anında yanıt veren kullanıcı deneyimi.
+*   **Tam Entegrasyon:** Arka planda `bimser-rag-api` üzerinden Vektör Veritabanı ve Llama 3.1 ile kusursuz iletişim.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Mimari ve Teknolojiler
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*   **Framework:** Next.js 14
+*   **Dil:** TypeScript
+*   **Stil:** Tailwind CSS
+*   **Bağlantı:** FastAPI Backend (`bimser-rag-api`) ile entegre.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Kurulum (Local Development)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Paneli bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Gereksinimler
+*   Node.js (v18 veya üzeri)
+*   Arka planda `bimser-rag-api` projesinin (Backend) 8000 portunda çalışıyor olması gerekir.
+
+### Adım Adım Kurulum
+
+1.  **Projeyi Klonlayın:**
+    ```bash
+    git clone https://github.com/kadirerentugran/bimser-docs-portal.git
+    cd bimser-docs-portal
+    ```
+
+2.  **Bağımlılıkları Kurun:**
+    ```bash
+    npm install --legacy-peer-deps
+    ```
+
+3.  **Çalıştırın:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Erişim:**
+    Tarayıcınızdan şu adrese giderek portala ulaşabilirsiniz (Backend port 8000, Admin port 3000 kullandığı için bu proje varsayılan olarak **3001** portunda çalışır):
+    👉 **[http://localhost:3001](http://localhost:3001)**
+
+---
+
+<div align="center">
+  <p>👨‍💻 <i>Kadir Eren Tuğran tarafından Bimser için özel olarak tasarlanmıştır.</i></p>
+</div>
