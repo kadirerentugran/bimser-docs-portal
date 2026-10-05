@@ -1,17 +1,17 @@
 <div align="center">
-  <h1>📚 Bimser Docs Portal</h1>
+  <h1>Bimser Docs Portal</h1>
   <p>Şirket İçi Akıllı Dokümantasyon Arama Motoru (Yapay Zeka Destekli)</p>
 </div>
 
 ---
 
-## 📌 Proje Hakkında
+## Proje Hakkında
 
 Bu proje, kurum içi dokümanların (Kullanım Kılavuzları, Kurulum Rehberleri, Teknik Şartnameler) son kullanıcılar tarafından akıllı ve anlamsal (semantic) olarak aranabildiği **Son Kullanıcı Arayüzüdür (Frontend)**.
 
 Kullanıcılar klasik anahtar kelime araması yerine, doğrudan cümleler kurarak veya soru sorarak `pgvector` veritabanı içinde en alakalı doküman parçalarına milisaniyeler içinde ulaşabilirler.
 
-### 🌟 Öne Çıkan Özellikler
+### Öne Çıkan Özellikler
 
 *   **Semantic Search (Anlamsal Arama):** "Sisteme nasıl giriş yaparım?" gibi doğal dil sorularını anlayarak en doğru dokümanı getirme.
 *   **Hızlı ve Modern Arayüz:** Next.js 14 altyapısı ile anında yanıt veren kullanıcı deneyimi.
@@ -19,7 +19,7 @@ Kullanıcılar klasik anahtar kelime araması yerine, doğrudan cümleler kurara
 
 ---
 
-## 🛠️ Mimari ve Teknolojiler
+## Mimari ve Teknolojiler
 
 *   **Framework:** Next.js 14
 *   **Dil:** TypeScript
@@ -28,7 +28,7 @@ Kullanıcılar klasik anahtar kelime araması yerine, doğrudan cümleler kurara
 
 ---
 
-## 🚀 Kurulum (Local Development)
+## Kurulum (Local Development)
 
 Paneli bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
@@ -56,6 +56,6 @@ Paneli bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
 4.  **Erişim:**
     Tarayıcınızdan şu adrese giderek portala ulaşabilirsiniz (Backend port 8000, Admin port 3000 kullandığı için bu proje varsayılan olarak **3001** portunda çalışır):
-    👉 **[http://localhost:3001](http://localhost:3001)**
+    **[http://localhost:3001](http://localhost:3001)**
 
 ---
